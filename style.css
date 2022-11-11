@@ -1,25 +1,29 @@
-*{box-sizing: border-box;
-padding: 0;
-margin: 0;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-section{
+
+section {
     font-size: 30px;
 }
-header{
+
+header {
     height: 100vh;
     background-image:linear-gradient(to top, rgba(161, 140, 209, 0.274) 0%, rgba(251, 194, 235, 0.356) 100%), url(img/EL-SALTO.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: contain;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: black;
     padding: 0 15px;
     font-size: 18px;
-    
 }
-.menu{
+
+.menu {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,19 +32,18 @@ nav a{
     width: 100%;
     height: 10%;
 }
-.Titulo{
-    
+
+.Titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
     justify-content: center;
     font-size: 40px;
-    
 }
-.text{
+
+.text {
     text-align: justify;
     font-size: 30px;
     max-width: 900px;
-    
 }
