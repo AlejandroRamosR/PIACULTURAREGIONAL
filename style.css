@@ -76,6 +76,11 @@ nav a {
     justify-content: center;
 }
 
+.headerText {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+}
+
 .section {
     padding: 120px 0;
     min-height: 100vh;
