@@ -108,3 +108,28 @@ img {
     max-width: 750px;
     height: 500px;
 }
+
+footer {
+    background: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
+    min-height: 25vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer li {
+    margin: 0 20px;
+}
